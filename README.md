@@ -1,2 +1,2 @@
-# IMWA-basis
-De catalogus van IMWA Basis is hier te vinden: (https://aquo-standaard.github.io/IMWA-basis/)
+# IMWA-template
+De catalogus van IMWA ??? is hier te vinden: (vul hier de url in van de catalogus)
