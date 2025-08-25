@@ -1,0 +1,38 @@
+name: API Call en Bestand Opslaan
+
+on:
+  workflow_dispatch:  # Zorgt ervoor dat de workflow handmatig gestart kan worden
+
+jobs:
+  fetch-and-save:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: API Call uitvoeren - ObjectStatus ophalen
+        id: api_call
+        run: |
+          RESPONSE=$(curl -s https://www.aquo.nl/index.php/Speciaal:Vragen/format%3Djson/limit%3D20/link%3Dall/headers%3Dshow/searchlabel%3DJSON/class%3Dsortable-20wikitable-20smwtable/prefix%3Dnone/sort%3D/order%3Dasc/offset%3D0/-5B-5BCategorie:Domeinwaarden-5D-5D-20-5B-5BBreder::Breder::Id-0256a893-68f5-41e1-aac8-fc8cfa746382-5D-5D-20-5B-5BEind-20geldigheid::%E2%89%A51-20januari-202025-5D-5D/-3FId/-3FCodes/-3FOmschrijving/-3FBegin-20geldigheid/-3FEindgeldigheid/mainlabel%3D/prettyprint%3Dtrue/unescape%3Dtrue)
+          echo "$RESPONSE" > data/waardelijsten/ObjectStatus.json
+         
+      - name: API Call uitvoeren - Waterbeheerder ophalen
+        id: api_call
+        run: |
+            RESPONSE=$(curl -s https://www.aquo.nl/index.php/Speciaal:Vragen/format%3Djson/limit%3D20/link%3Dall/headers%3Dshow/searchlabel%3DJSON/class%3Dsortable-20wikitable-20smwtable/prefix%3Dnone/sort%3D/order%3Dasc/offset%3D0/-5B-5BCategorie:Domeinwaarden-5D-5D-20-5B-5BBreder::Breder::Id-52637750-d341-4a38-b80e-18e3442882a3-5D-5D-20-5B-5BEind-20geldigheid::%E2%89%A51-20januari-202025-5D-5D/-3FId/-3FCodes/-3FOmschrijving/-3FBegin-20geldigheid/-3FEindgeldigheid/mainlabel%3D/prettyprint%3Dtrue/unescape%3Dtrue)
+            echo "$RESPONSE" > data/waardelijsten/Waterbeheerder.json
+  
+      - name: Bestand Committen en Pushen
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/waardelijsten/ObjectStatus.json data/waardelijsten/Waterbeheerder.json
+          
+          # Controleer of er wijzigingen zijn
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen om te committen."
+          else
+            git commit -m "Automatische update vanuit API"
+            git push
+          fi

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="nl" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Semantisch zoeken</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t.",".\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"],"wgRequestId":"37af6edde151b78910bf1a29","wgCSPNonce":false,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"Ask","wgNamespaceNumber":-1,"wgPageName":"Speciaal:Vragen","wgTitle":"Vragen","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":false,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"nl","wgPageContentModel":"wikitext","wgRelevantPageName":"Speciaal:Vragen","wgRelevantArticleId":0,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"sdgDownArrowImage":"/extensions/SemanticDrilldown/skins/down-arrow.png","sdgRightArrowImage":
+"/extensions/SemanticDrilldown/skins/right-arrow.png","wgPageFormsTargetName":null,"wgPageFormsAutocompleteValues":[],"wgPageFormsAutocompleteOnAllChars":false,"wgPageFormsFieldProperties":[],"wgPageFormsCargoFields":[],"wgPageFormsDependentFields":[],"wgPageFormsCalendarValues":[],"wgPageFormsCalendarParams":[],"wgPageFormsCalendarHTML":null,"wgPageFormsGridValues":[],"wgPageFormsGridParams":[],"wgPageFormsContLangYes":null,"wgPageFormsContLangNo":null,"wgPageFormsContLangMonths":[],"wgPageFormsHeightForMinimizingInstances":3000,"wgPageFormsDelayReload":true,"wgPageFormsShowOnSelect":[],"wgPageFormsScriptPath":"/extensions/PageForms","edgValues":[],"wgPageFormsEDSettings":null,"wgAmericanDates":false,"srfFilteredConfig":null};RLSTATE={"site.styles":"ready","user.styles":"ready","user":"ready","user.options":"loading","ext.smw.style":"ready","ext.smw.ask.styles":"ready","ext.smw.table.styles":"ready","ext.smw.page.styles":"ready","ext.smw.modal.styles":"ready","mediawiki.helplink":
+"ready","skins.aquo.styles":"ready","skins.poseidon.styles":"ready","jquery.tablesorter.styles":"ready","ext.smw.tooltip.styles":"ready","ext.smw.special.styles":"ready","ext.srf.styles":"ready"};RLPAGEMODULES=["ext.smw.ask","ext.smw.autocomplete.property","onoi.clipboard","ext.smw.modal","site","mediawiki.page.ready","jquery.tablesorter","skins.poseidon.scripts","ext.SmartCore.resources","ext.WikiXL.messageBoxes","ext.WikiXL.WCAG","ext.SmartConnectArchiMate.resources","ext.SmartRDFPublish","ext.SmartSearch.resources","ext.SmartHeaderTabs","@wikimedia/codex","skins.WikiXL.139"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link rel="stylesheet" href="/load.php?lang=nl&amp;modules=ext.smw.ask.styles%7Cext.smw.modal.styles%7Cext.smw.page.styles%7Cext.smw.special.styles%7Cext.smw.style%7Cext.smw.table.styles%7Cext.smw.tooltip.styles%7Cext.srf.styles%7Cjquery.tablesorter.styles%7Cmediawiki.helplink%7Cskins.aquo.styles%7Cskins.poseidon.styles&amp;only=styles&amp;skin=aquo"/>
+<script async="" src="/load.php?lang=nl&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=aquo"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/load.php?lang=nl&amp;modules=site.styles&amp;only=styles&amp;skin=aquo"/>
+<meta name="generator" content="MediaWiki 1.39.11"/>
+<meta name="robots" content="noindex,nofollow"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link rel="icon" href="/logos/favicon.png"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="AQUO (nl)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://www.aquo.nl/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="AQUO Atom-feed" href="/index.php?title=Speciaal:RecenteWijzigingen&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-Ask page-Speciaal_Vragen rootpage-Speciaal_Vragen skin-aquo action-view skin--responsive">
+<div id="skiplinks">
+    <ul>
+        <li>
+            <a href="#main">Ga direct naar het tekstgedeelte</a>
+        </li>
+        <li>
+            <a href="#searchInput">Ga direct naar zoeken</a>
+        </li>
+        <li>
+            <a href="#mainNavigation">Ga direct naar de navigatie</a>
+        </li>
+        <li>
+            <a href="#accessibility-settings">Ga naar de opties voor toegankelijkheid</a>
+        </li>
+    </ul>
+</div>
+
+<!-- Accessibility -->
+<section class="accessibility" id="accessibility-settings">
+    <button title="Show as high contrast" class="contrast">
+        <span class="text">Contrast</span> <i class="fas fa-adjust"></i>
+    </button>
+    <button title="Increase text size" class="text-size">
+        <span class="text">Groter</span> <i class="fas fa-aa"><span class="smaller">A</span>A</i>
+    </button>
+</section>
+
+
+<!-- SiteLogo&Search -->
+<header class="bg-white">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="d-flex justify-content-between branding">
+                    <a href="/index.php/Hoofdpagina" title="Ga naar de homepage" class="navbar-brand"><img src="https://www.aquo.nl//logos/aquo_logo_min.svg" alt="Het logo van AQUO"/></a>
+                    <div class="d-lg-none d-xl-none hamburger-menu">
+                        <a href="#mainNavigation" class="navbar-toggler">
+                            <span class="text">Menu</span>
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="searchContainer" id="searchContainer">
+                    <form id="searchform" class="search-block-form show-block collapsible-menu-item" action="/index.php">
+    <div class="input-group has-feedback">
+        <input type="hidden" name="title" value="Speciaal:Zoeken">
+        <label class="sr-only" for="searchInput">Zoeken</label>
+        <input type="search" name="search" placeholder="Zoeken" aria-label="Zoeken" autocapitalize="sentences" title="Doorzoek AQUO [f]" accesskey="f" id="searchInput" class="form-control">
+
+        <div class="input-group-append">
+            <input type="submit" name="go" value="Zoeken" title="Naar een pagina met deze naam gaan als deze bestaat" class="searchButton btn-search btn btn-primary" id="searchButton">
+
+        </div>
+    </div>
+</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- SiteNavigation -->
+<nav class="navbar navbar-expand-lg bg-light d-none d-lg-block" id="mainNavigation">
+    <div class="container">
+        <a href="#" class="collapse hamburger-menu-closer">
+            <i class="fas fa-times"></i>
+        </a>
+        <div class="menu-wrapper">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item dropdown has-submenu ">
+    <a id="navbarDropdown570352" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        Introductie Aquo
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown570352">
+        <li class="nav-item"><a id="navbarDropdown8f5fe1" class="nav-link" href="/index.php/Introductie_Aquo">Over de Aquo-standaard</a></li><li class="nav-item"><a id="navbarDropdownc0e42f" class="nav-link" href="/index.php/Wat_levert_gebruik_van_Aquo_op%3F">Wat levert gebruik van Aquo op?</a></li><li class="nav-item"><a id="navbarDropdown9660ee" class="nav-link" href="/index.php/Verplichte_open_standaard">Verplichte open standaard</a></li><li class="nav-item"><a id="navbarDropdown53292d" class="nav-link" href="/index.php/Afstemming_met_andere_standaarden">Afstemming met andere standaarden</a></li><li class="nav-item"><a id="navbarDropdown59af8b" class="nav-link" href="/index.php/Implementatie_in_jouw_organisatie">Implementatie in jouw organisatie</a></li><li class="nav-item"><a id="navbarDropdown9ea2bc" class="nav-link" href="/index.php/Wat_kost_implementatie%3F">Wat kost implementatie?</a></li>
+    </ul>
+</li><li class="nav-item dropdown has-submenu ">
+    <a id="navbarDropdown59cd06" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        De Aquo-standaard
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown59cd06">
+        <li class="nav-item"><a id="navbarDropdowna5efec" class="nav-link" href="/index.php/Opbouw_Aquo-standaard">Opbouw Aquo-standaard</a></li><li class="nav-item"><a id="navbarDropdown1e9850" class="nav-link" href="/index.php/Begrippen">Begrippen</a></li><li class="dropdown-submenu has-submenu"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="navbarDropdown31eda0" role="button" href="/index.php/Domeintabellen" class="nav-link dropdown-toggle show">Domeintabellen</a><ul aria-labelledby="navbarDropdown31eda0" class="dropdown-menu" id="navbarDropdown31eda0"><li class="nav-item"><a id="navbarDropdown17b280" class="nav-link" href="/index.php/Werken_met_domeintabellen">Werken met domeintabellen</a></li><li class="nav-item"><a id="navbarDropdownfbe21b" class="nav-link" href="/index.php/Hulplijsten_gegevensuitwisseling">Hulplijsten gegevensuitwisseling</a></li><li class="nav-item"><a id="navbarDropdown319fd1" class="nav-link" href="/index.php/Waarnemingssoorten">Waarnemingssoorten</a></li></ul></li><li class="dropdown-submenu has-submenu"><a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-controls="navbarDropdowndc5612" role="button" href="/index.php?title=Informatiemodellen" class="nav-link dropdown-toggle show">Informatiemodellen</a><ul aria-labelledby="navbarDropdowndc5612" class="dropdown-menu" id="navbarDropdowndc5612"><li class="nav-item"><a id="navbarDropdownc353c7" class="nav-link" href="/index.php/Werken_met_informatiemodellen">Werken met informatiemodellen</a></li><li class="nav-item"><a id="navbarDropdown26780e" class="nav-link" href="/index.php/Conceptueel_model">Conceptueel model</a></li><li class="nav-item"><a id="navbarDropdownbc5813" class="nav-link" href="/index.php/Logisch_model">Logisch model</a></li><li class="nav-item"><a id="navbarDropdown2ae01a" class="nav-link" href="/index.php/Fysiek_model">Fysiek model</a></li></ul></li>
+    </ul>
+</li><li class="nav-item dropdown has-submenu ">
+    <a id="navbarDropdown064cd1" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        Hulp nodig?
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown064cd1">
+        <li class="nav-item"><a id="navbarDropdown855f60" class="nav-link" href="/index.php/Servicedesk_Informatiehuis_Water">Servicedesk Informatiehuis Water</a></li><li class="nav-item"><a id="navbarDropdownb52069" class="nav-link" href="/index.php/Zoeken_op_de_Aquo_Wiki">Zoeken op de Aquo Wiki</a></li><li class="nav-item"><a id="navbarDropdownd6fc99" class="nav-link" href="/index.php/Gebruikersbijeenkomsten">Gebruikersbijeenkomsten</a></li><li class="nav-item"><a id="navbarDropdown0ecbf3" class="nav-link" href="/index.php/Naslagwerken">Naslagwerken</a></li>
+    </ul>
+</li><li class="nav-item dropdown has-submenu ">
+    <a id="navbarDropdown085c93" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        Samen werken aan Aquo
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown085c93">
+        <li class="nav-item"><a id="navbarDropdown9a26db" class="nav-link" href="/index.php/Wijziging_voorstellen">Wijziging voorstellen</a></li><li class="nav-item"><a id="navbarDropdown8ae924" class="nav-link" href="/index.php/Behandeling_wijzigingsvoorstel">Behandeling wijzigingsvoorstel</a></li><li class="nav-item"><a id="navbarDropdown6dfeb3" class="nav-link" href="/index.php/Aquo_Expert_Community">Aquo Expert Community</a></li><li class="nav-item"><a id="navbarDropdown58cc61" class="nav-link" href="/index.php/Technische_werkgroepen">Technische werkgroepen</a></li><li class="nav-item"><a id="navbarDropdowne63daa" class="nav-link" href="/index.php/CCvD-Datastandaarden">CCvD-Datastandaarden</a></li><li class="nav-item"><a id="navbarDropdown0f663f" class="nav-link" href="/index.php/Aquo_Linked_Data_Community">Aquo Linked Data Community</a></li><li class="nav-item"><a id="navbarDropdownce15cf" class="nav-link" href="/index.php/Aquo-gebruikersoverleg">Aquo-gebruikersoverleg</a></li><li class="nav-item"><a id="navbarDropdownd188fc" class="nav-link" href="/index.php/Uitgevoerde_Aquo-updates">Uitgevoerde Aquo-updates</a></li><li class="nav-item"><a id="navbarDropdowna3e860" class="nav-link" href="/index.php/Pre-Aquo">Pre-Aquo</a></li><li class="nav-item"><a id="navbarDropdown08e9ba" class="nav-link" href="/index.php/Publieke_consultaties">Publieke consultaties</a></li>
+    </ul>
+</li><li class="nav-item dropdown has-submenu ">
+    <a id="navbarDropdown4186af" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        Beheer door Aquo-team
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown4186af">
+        <li class="nav-item"><a id="navbarDropdown234f12" class="nav-link" href="/index.php/Categorie:Kennismodellen">Overzicht kennismodellen</a></li><li class="nav-item"><a id="navbarDropdownf5849b" class="nav-link" href="/index.php?title=AQUO:Skin">Beheer menu</a></li><li class="nav-item"><a id="navbarDropdown138f0a" class="nav-link" href="/index.php/MediaWiki:Common.css">Opmaak</a></li><li class="nav-item"><a id="navbarDropdown365e28" class="nav-link" href="/index.php/Speciaal:Uploaden">Bestand uploaden</a></li><li class="nav-item"><a id="navbarDropdown3eefa6" class="nav-link" href="/index.php/Speciaal:RecenteWijzigingen">Laatste wijzigingen</a></li>
+    </ul>
+</li>
+                    <li class="nav-item"><a href="/index.php?title=Speciaal:Aanmelden&amp;returnto=Speciaal%3AVragen&amp;returntoquery=format%3Djson%26limit%3D20%26link%3Dall%26headers%3Dshow%26searchlabel%3DJSON%26class%3Dsortable-wikitable-smwtable%26prefix%3Dnone%26sort%3D%26order%3Dasc%26offset%3D0%26%253FVoorkeurslabel%3D%26%253FId%3D%26%253FCodes%3D%26%253FOmschrijving%3D%26prettyprint%3Dtrue%26unescape%3Dtrue%26wpEditToken%3D%252B%255C" class="nav-link">Aanmelden</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Packages selection -->
+<section class="content" id="main">
+    <div class="container ">
+        <ol class="breadcrumb"><li class="breadcrumb-item active">Semantisch zoeken</a></ol>
+        <h1 id="firstHeading" class="firstHeading mw-first-heading">Semantisch zoeken</h1>
+        <div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="nl" dir="ltr">
+            <div id="ask-status" class="smw-ask-status plainlinks"><noscript><div class="smw-callout smw-callout-error">Deze pagina of handeling vereist JavaScript om te werken. Schakel JavaScript in uw browser in, of gebruik een browser waarin dit wordt ondersteund, zodat de functionaliteit naar behoren kan werken. Kijk voor meer informatie op de hulppagina <a rel="nofollow" class="external text" href="https://www.semantic-mediawiki.org/wiki/Help:Noscript">noscript</a>.</div></noscript></div><div id="ask-toplinks" class="smw-ask-toplinks"><span class="float-left"><a href="#options">Opties</a><span style="color:#aaa;font-size: 95%;margin-top: 2px;">&#160;&#160;|&#160;&#160;</span><a href="#search">Zoeken</a></span>&#160;<span class="float-right"><a href="/index.php/Speciaal:Vragen">Alle vermeldingen wissen</a><span style="color:#aaa;font-size: 95%;margin-top: 2px;">&#160;&#160;|&#160;&#160;</span><span class="smw-modal-link is-disabled" data-id="ask-help"><a href="#help" rel="nofollow"><span class="smw-icon-info" style="padding: 0 0 3px 18px;background-position-x: center;"></span></a></span></span></div><div class="clear-both"></div><div id="ask" class="is-disabled"><form action="/index.php?title=Speciaal:Vragen&amp;#search" name="ask" method="post"><input type="hidden" value="Speciaal:Vragen" name="title"/><input type="hidden" value="submit" name="_action"/><div id="query" class="smw-ask-query"><div class="smw-table" style="width: 100%;"><div class="smw-table-row"><div class="smw-table-cell smw-ask-condition slowfade"><fieldset><legend>Voorwaarde</legend><textarea id="ask-query-condition" class="smw-ask-query-condition" name="q" rows="6" placeholder="..."></textarea></fieldset></div><div class="smw-table-cell" style="width:10px; border:0px; padding: 0px;"></div><div class="smw-table-cell smw-ask-printhead slowfade"><fieldset><legend>Print selectie</legend><textarea id="smw-property-input" class="smw-ask-query-printout" name="po" rows="6" placeholder="...">?Voorkeurslabel
+?Id
+?Codes
+?Omschrijving
+</textarea></fieldset></div></div></div></div><div id="format" class="smw-ask-format"></div><div id="options" class="smw-ask-options"><fieldset><legend>Opties</legend><span class="smw-ask-format-list"><input type="hidden" value="yes" name="eq"/><select id="formatSelector" class="smw-ask-button smw-ask-button-lgrey smw-ask-format-selector" name="p[format]" data-url="/index.php?title=Speciaal:Vragen&amp;showformatoptions=this.value&amp;params[limit]=20&amp;params[link]=all&amp;params[headers]=show&amp;params[searchlabel]=JSON&amp;params[class]=sortable-wikitable-smwtable&amp;params[prefix]=none&amp;params[sort]=&amp;params[order]=asc&amp;params[offset]=0&amp;params[prettyprint]=true&amp;params[unescape]=true"><option value="broadtable">Brede tabel (standaard)</option><option value="array">Array</option><option value="tree">Boom</option><option value="category">Categorie</option><option value="d3chart">D3-grafiek</option><option value="slideshow">Diapresentatie</option><option value="dygraphs">Dygraphsgrafiek</option><option value="eventcalendar">Evenementenkalender</option><option value="gallery">Galerij</option><option value="gantt">Gantt</option><option value="eventline">Gebeurtenissenlijn</option><option value="filtered">Gefilterd</option><option value="datatables">Gegevenstabellen</option><option value="average">Gemiddelde van getallen</option><option value="ol">Genummerde lijst</option><option value="oltree">Genummerde lijst</option><option value="plainlist">Gewone lijst</option><option value="googlebar">Google staafgrafiek</option><option value="googlepie">Google taartgrafiek</option><option value="graph">Grafiek</option><option value="max">Hoogste getal</option><option value="jqplotchart">jqPlotgrafiek</option><option value="jqplotseries">jqPlotserie</option><option value="min">Laagste getal</option><option value="list">Lijst</option><option value="ul">Lijst met opsommingstekens</option><option value="listwidget">Lijstwidget</option><option value="calendar">Maandkalender</option><option value="median">Mediaan van getallen</option><option value="media">Mediaspeler</option><option value="latest">Meest recente tijd</option><option data-isexport="1" value="bibtex">Naar BibTeX exporteren</option><option data-isexport="1" value="csv">Naar CSV exporteren</option><option data-isexport="1" value="dsv">Naar DSV exporteren</option><option data-isexport="1" value="icalendar">Naar iCalendar exporteren</option><option data-isexport="1" value="json" selected="">Naar JSON exporteren</option><option data-isexport="1" value="rdf">Naar RDF exporteren</option><option data-isexport="1" value="vcard">Naar vCard exporteren</option><option value="ultree">Ongenummerde lijst</option><option value="outline">Outline</option><option value="embedded">Paginainhoud insluiten</option><option value="pagewidget">Paginawidget</option><option value="product">Product van getallen</option><option data-isexport="1" value="prolog">Prolog-predicaten</option><option data-isexport="1" value="dataframe">R-dataframe</option><option value="valuerank">Rangwaarde</option><option data-isexport="1" value="feed">RSS- en Atom-feed</option><option value="template">Sjabloon</option><option data-isexport="1" value="templatefile">Sjabloonbestand</option><option value="sum">Som van getallen</option><option value="sparkline">Sparkline-grafiek</option><option data-isexport="1" value="spreadsheet">spreadsheet</option><option value="table">Tabel</option><option value="timeline">Tijdlijn</option><option value="timeseries">Tijdseriegrafiek</option><option value="turtle">Turtle</option><option value="earliest">Vroegste tijd</option><option value="tagcloud">Woordwolk</option><option value="carousel">⧼srf-printername-carousel⧽</option><option value="interquartilemean">⧼srf_printername_interquartilemean⧽</option><option value="interquartilerange.exc">⧼srf_printername_interquartilerange.exc⧽</option><option value="interquartilerange">⧼srf_printername_interquartilerange⧽</option><option value="mode">⧼srf_printername_mode⧽</option><option value="quartillower.exc">⧼srf_printername_quartillower.exc⧽</option><option value="quartillower">⧼srf_printername_quartillower⧽</option><option value="quartilupper.exc">⧼srf_printername_quartilupper.exc⧽</option><option value="quartilupper">⧼srf_printername_quartilupper⧽</option><option value="range">⧼srf_printername_range⧽</option><option value="samplestandarddeviation">⧼srf_printername_samplestandarddeviation⧽</option><option value="samplevariance">⧼srf_printername_samplevariance⧽</option><option value="standarddeviation">⧼srf_printername_standarddeviation⧽</option><option value="variance">⧼srf_printername_variance⧽</option></select></span><div id="parameter-title" class="strike"><span>Parameters<span style="margin-left:5px;">&#160;[<span class="options-toggle-action"><label for="options-toggle" title="De selectie uitvouwen">+</label></span>]&#160;</span></span></div><div><input type="checkbox" id="options-toggle"/><div id="options-list" class="options-list"><div class="options-parameter-list"><div class="smw-table smw-ask-options-list" width="100%"><div class="smw-table-row smw-ask-options-row-odd"><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Alternatieve zoekopdrachtbron">source: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><select name="p[source]" class="parameter-select-input"><option value=""></option>
+<option value="wikixl">wikixl</option>
+<option value="archimate">archimate</option>
+<option value="smartsearch">smartsearch</option></select><span class="smw-ask-parameter-description"><br />Alternatieve zoekopdrachtbron</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Het maximaal aantal weer te geven resultaten">limit: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-number-input" size="6" style="width: 95%;" value="20" name="p[limit]"/><span class="smw-ask-parameter-description"><br />Het maximaal aantal weer te geven resultaten</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De positie van het eerste resultaat">offset: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-number-input" size="6" style="width: 95%;" value="0" name="p[offset]"/><span class="smw-ask-parameter-description"><br />De positie van het eerste resultaat</span></div></div><div class="smw-table-row smw-ask-options-row-even"><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Waarden als koppelingen weergeven">link: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><select name="p[link]" class="parameter-select-input"><option value=""></option>
+<option value="all" selected="selected">all</option>
+<option value="subject">subject</option>
+<option value="none">none</option></select><span class="smw-ask-parameter-description"><br />Waarden als koppelingen weergeven</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De namen van koppen en eigenschappen weergeven">headers: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><select name="p[headers]" class="parameter-select-input"><option value=""></option>
+<option value="show" selected="selected">show</option>
+<option value="hide">hide</option>
+<option value="plain">plain</option></select><span class="smw-ask-parameter-description"><br />De namen van koppen en eigenschappen weergeven</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Het label voor de hoofdpaginanaam">mainlabel: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-string-input" size="20" style="width: 95%;" name="p[mainlabel]"/><span class="smw-ask-parameter-description"><br />Het label voor de hoofdpaginanaam</span></div></div><div class="smw-table-row smw-ask-options-row-odd"><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De tekst die wordt weergegeven boven de zoekresultaten, als die er zijn">intro: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-string-input" size="20" style="width: 95%;" name="p[intro]"/><span class="smw-ask-parameter-description"><br />De tekst die wordt weergegeven boven de zoekresultaten, als die er zijn</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De tekst die wordt weergegeven onder de zoekresultaten, als die er zijn">outro: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-string-input" size="20" style="width: 95%;" name="p[outro]"/><span class="smw-ask-parameter-description"><br />De tekst die wordt weergegeven onder de zoekresultaten, als die er zijn</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Tekst voor het voortzetten van de zoekopdracht">searchlabel: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-string-input" size="20" style="width: 95%;" value="JSON" name="p[searchlabel]"/><span class="smw-ask-parameter-description"><br />Tekst voor het voortzetten van de zoekopdracht</span></div></div><div class="smw-table-row smw-ask-options-row-even"><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De tekst die wordt weergegeven als er geen zoekresultaten zijn">default: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-string-input" size="20" style="width: 95%;" name="p[default]"/><span class="smw-ask-parameter-description"><br />De tekst die wordt weergegeven als er geen zoekresultaten zijn</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Serialisatietype">type: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><select name="p[type]" class="parameter-select-input"><option value=""></option>
+<option value="simple">simple</option>
+<option value="full" selected="selected">full</option></select><span class="smw-ask-parameter-description"><br />Serialisatietype</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="Een netjes opgemaakte uitvoer inschakelen die tabs en nieuwe regels toevoegt">prettyprint: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input name="p[prettyprint]" type="checkbox" value="1" checked="checked" class="parameter-boolean-input" /><span class="smw-ask-parameter-description"><br />Een netjes opgemaakte uitvoer inschakelen die tabs en nieuwe regels toevoegt</span></div></div><div class="smw-table-row smw-ask-options-row-odd"><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De uitvoer bevat slashes en multibyte Unicode-tekens die niet voorafgegaan worden door een escape">unescape: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input name="p[unescape]" type="checkbox" value="1" checked="checked" class="parameter-boolean-input" /><span class="smw-ask-parameter-description"><br />De uitvoer bevat slashes en multibyte Unicode-tekens die niet voorafgegaan worden door een escape</span></div><td><div class="smw-table-cell" overflow="hidden" style="border:none;"><span word-wrap="break-word" data-info="De naam voor het uitvoerbestand">filename: </span></div></td><div class="smw-table-cell" overflow="hidden" style="width:33%;border:none;"><input class="parameter-string-input" size="20" style="width: 95%;" value="result.json" name="p[filename]"/><span class="smw-ask-parameter-description"><br />De naam voor het uitvoerbestand</span></div></div></div></div></div></div><div id="options-sort" class="smw-ask-options-sort"><div id="sorting-title" class="strike"><span>Sorteeropties</span></div><div id="sorting-input"><div id="sort_div_0" class="smw-ask-sort-input"><input name="sort_num[]" size="35" class="smw-property-input autocomplete-arrow"/><select name="order_num[]"><option selected="selected" value="asc">Oplopend</option><option value="desc">Aflopend</option><option value="rand">Willekeurig</option></select><span class="smw-ask-sort-delete"><a class="smw-ask-sort-delete-action" data-target="sort_div_0" >Verwijderen</a></span></div><div id="sorting_starter" style="display: none"><input type="text" name="sort_num[]" size="35" class="smw-property-input autocomplete-arrow" /><select name="order_num[]">
+	<option value="asc">Oplopend</option>
+	<option value="desc">Aflopend</option>
+	<option value="rand">Willekeurig</option>
+</select></div><div id="sorting_main"></div>
+<span class="smw-ask-sort-add"><a class="smw-ask-sort-add-action">Sorteervoorwaarde toevoegen</a></span></div></div></fieldset></div><div id="ask-change-info"></div><div class="smw-ask-button-submit"><input id="search-action" type="submit" value="Resultaten zoeken"/><input type="hidden" name="eq" value="yes"/></div><div id="search" class="smw-tabs smw-ask-search-edit empty-result"></div></form><div id="result" class="smw-ask-result"></div></div><div id="ask-help" class="smw-modal plainlinks" style="display:none;"><div class="smw-modal-content"><div class="smw-modal-header"><span class="smw-modal-close">&#215;</span><span class="smw-modal-title">Spiekbriefje</span></div><div class="smw-modal-body"><p>Dit gedeelte bevat een aantal koppelingen om uit te leggen hoe de syntaxis <code>#ask</code> moet worden gebruikt:
+</p>
+<ul><li>in <a rel="nofollow" class="external text" href="https://www.semantic-mediawiki.org/wiki/Help:Selecting_pages">Pagina's selecteren</a> wordt beschreven hoe u pagina's selecteert en selectiecriteria formuleert;</li></ul>
+<ul><li>in <a rel="nofollow" class="external text" href="https://www.semantic-mediawiki.org/wiki/Help:Search_operators">Zoekoperators</a> worden de beschikbare zoekoperators opgesomd, waaronder die voor zoekopdrachten voor een bepaald bereik en met jokertekens;</li></ul>
+<ul><li>in <a rel="nofollow" class="external text" href="https://www.semantic-mediawiki.org/wiki/Help:Displaying_information">Informatie weergeven</a> wordt het gebruik van afdrukinstructies en opmaakopties beschreven.</li></ul><div class="strike" style="padding: 5px 0 5px 0;"><span style="font-size: 1.2em; margin-left:0px">Indeling</span><ul><li class="smw-ask-format-help-link">Formaat <a rel="nofollow" class="external text" href="https://www.semantic-mediawiki.org/wiki/Help:broadtable_format">broadtable</a></li></ul></div><div class="strike" style="padding: 5px 0 5px 0;"><span style="font-size: 1.2em; margin-left:0px">Hulp bij invoer</span></div><a rel="nofollow" class="external text" href="https://www.semantic-mediawiki.org/wiki/Help:Input_assistance">Hulp bij invoer</a> wordt geleverd voor het afdruk-, sorteer- en conditieveld. Voor het conditieveld moet een van de volgende voorvoegsels worden gebruikt:<ul><li><code>p:</code> om suggesties voor eigenschappen op te halen (bijv. <code>[[p:Has ...</code>)</li><li><code>c:</code> om categoriesuggesties op te halen</li><li><code>con:</code> om conceptsuggesties op te halen</li></ul></div><div class="smw-modal-footer"></div></div></div>
+        </div>
+        <div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>
+    </div>
+</section>
+
+<footer class="bg-maincolor">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <div class="mw-parser-output"><table>
+<tbody><tr><td>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="/index.php/Bestand:IHWlogo.png" class="image"><img alt="IHWlogo.png" src="/images/aquo/thumb/d/df/IHWlogo.png/250px-IHWlogo.png" decoding="async" width="250" height="61" class="thumbimage" srcset="/images/aquo/thumb/d/df/IHWlogo.png/375px-IHWlogo.png 1.5x, /images/aquo/thumb/d/df/IHWlogo.png/500px-IHWlogo.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="/index.php/Bestand:IHWlogo.png" class="internal" title="Vergroten"></a></div></div></div></div>
+</td></tr>
+<tr><td>
+<p>De Aquo-standaard wordt beheerd door het <a rel="nofollow" class="external text" href="https://www.ihw.nl/">Informatiehuis Water</a>, een samenwerkingsprogramma van Rijkswaterstaat, de waterschappen en de provincies.
+</p>
+</td></tr>
+</tbody></table>
+<ul><li><span class="newwin"><a rel="nofollow" class="external text" href="https://www.ihw.nl/privacyverklaring">Privacyverklaring</a></span></li>
+<li><a href="/index.php/Toegankelijkheid" title="Toegankelijkheid"> Toegankelijkheidsverklaring</a></li></ul></div>
+            </div>
+            <div class="col-sm">
+                <div class="mw-parser-output"><h2><span class="mw-headline" id="Snel_naar">Snel naar</span></h2>
+<ul><li><a href="/images/aquo/4/43/Gebruikersinstructie-aquo-sharepoint.pdf" class="internal" title="Gebruikersinstructie-aquo-sharepoint.pdf"> Gebruikersinstructie Aquo Sharepoint</a></li>
+<li><a rel="nofollow" class="external text" href="https://hetwaterschapshuis.sharepoint.com/sites/Aquo-site">Wijzigingsvoorstellen op Aquo Sharepoint</a></li>
+<li><a href="/images/aquo/c/c1/Wijzigingsvoorstel-formulier.xlsx" class="internal" title="Wijzigingsvoorstel-formulier.xlsx">Formulier wijzigingsvoorstel</a></li>
+<li><a href="/index.php/Hulplijsten_gegevensuitwisseling" title="Hulplijsten gegevensuitwisseling"> Hulplijsten gegevensuitwisseling</a></li>
+<li><span class="newwin"><a rel="nofollow" class="external text" href="https://taxainfo.nl/">TWN-lijst</a></span></li></ul>
+<p><br />
+</p>
+<h2><span id="Op_de_hoogte_blijven.3F"></span><span class="mw-headline" id="Op_de_hoogte_blijven?">Op de hoogte blijven?</span></h2>
+<p><span class="newwin"><a rel="nofollow" class="external text" href="https://www.ihw.nl/nieuwsbrief-en-aquo-informatiebulletin">Aanmelden Aquo Informatiebulletin</a></span>
+</p></div>
+            </div>
+            <div class="col-sm">
+                <div class="mw-parser-output"><h2><span class="mw-headline" id="Contactgegevens">Contactgegevens</span></h2>
+<p>Stationsplein 89<br />
+3818 LE Amersfoort <br />
+Postbus 2180<br />
+3800 CD  Amersfoort<br />
+T 033-203 50 97<br />
+E <a rel="nofollow" class="external text" href="mailto:servicedesk@ihw.nl">servicedesk@ihw.nl</a><br />
+<br />
+<span class="newwin"><a rel="nofollow" class="external text" href="https://maps.app.goo.gl/JkHn8nu5az6jT31r5?">Routebeschrijving</a></span>
+</p></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["disableCookies"]);
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+
+  (function() {
+    var u = (("https:" == document.location.protocol) ? "https" : "http") + "://"+"statistics.wikixl.nl/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", "39"]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+    g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+<!-- Matomo Image Tracker -->
+<noscript><img src="https://statistics.wikixl.nl/piwik.php?idsite=39&rec=1" style="border:0" alt="" /></noscript>
+<!-- End Matomo -->
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":1360});});</script>
+</body>
+</html>
