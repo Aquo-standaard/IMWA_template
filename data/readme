@@ -1,1 +1,6 @@
+In deze directory komen de door Imvertor/respec gepushte catalogi te staan. Dat gaat automatisch bij het gebruik van de een .properties bestand met de volgende instructies:
 
+passoffice = git
+Includedoclist = no
+Officename = [model-abbreviation]-cat
+Createimagemap = yes
