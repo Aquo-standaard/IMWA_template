@@ -1,4 +1,4 @@
-# Inleiding AQUO
+# De Aquo-standaard
 
 De Aquo-standaard (Aquo) is de Nederlandse standaard voor het uitwisselen van gegevens binnen de watersector.  
 Informatie is een belangrijke motor voor het functioneren van de watersector. Steeds meer en verschillende overheidslagen en instanties werken samen en wisselen informatie uit. Daarom is het belangrijk dat we allemaal dezelfde betekenis geven aan de gegevens en woorden die we gebruiken. En dat we gemeenschappelijke afspraken maken over hoe we gegevens beschrijven en de manier waarop we ze uitwisselen.
@@ -9,7 +9,7 @@ De Aquo-standaard draagt daarmee bij aan de kwaliteit van het waterbeheer. Het e
 Aquo is voor overheidsorganisaties een verplichte open standaard, die is ontwikkeld en wordt beheerd door het Informatiehuis Water. Het Informatiehuis Water is een samenwerkingsprogramma van Rijkswaterstaat, de waterschappen en de provincies.  
 Het Informatiehuis Water ontzorgt waterbeheerders en beleidsmakers bij het uitwisselen van waterinformatie.
 
-## Informatiemodellen
+## Het Informatiemodel Water (IMWA)
 
 Een catalogus zoals deze bevat gebundelde informatie over een informatiemodel.  
 In de Aquo-informatiemodellen is vastgelegd welke relaties er bestaan tussen gegevens die te maken hebben met waterbeheer.  
@@ -22,8 +22,6 @@ Een catalogus is de gegevensdefinitie van elementen waarover informatie kan word
 
 Een Aquo-informatiemodel kan bovendien worden gebruikt om te bepalen welke gegevens in een database aanwezig moeten zijn om de data volgens de standaard te kunnen uitwisselen. Dit maakt het mogelijk om eenmaal ingewonnen data meervoudig te gebruiken.  
 Aquo-informatiemodellen worden ook gebruikt voor het ontwikkelen van import- en exportbestanden of interfaces.
-
-### Hoe werkt het?
 
 In de Aquo-standaard zijn informatiemodellen opgenomen voor verschillende soorten gegevensuitwisseling en die zijn per werkveld of domein gerangschikt. Daarnaast is een gelaagdheid aangebracht:
 
@@ -39,3 +37,9 @@ Zie voor verdere toelichting:
 [Metamodel Informatie Modellering](https://docs.geostandaarden.nl/mim/mim/)
 
 De Aquo-informatiemodellen zijn gemodelleerd met behulp van **UML (Unified Modeling Language)** in **Enterprise Architect**.
+
+## Leeswijzer
+Deze catalogus bevat zowel niet-normatieve als normatieve hoofdstukken.
+De niet-normatieve hoofdstukken bieden aanvullende informatie, zoals achtergronden, voorbeelden, toelichtingen en goede praktijken. Deze hoofdstukken zijn bedoeld om het begrip en de toepassing van de normatieve onderdelen te ondersteunen, maar zijn niet verplicht.
+De normatieve hoofdstukken bevatten verplichte richtlijnen, definities en eisen die essentieel zijn voor de correcte toepassing van de standaard. Deze onderdelen vallen onder het principe "Pas toe of leg uit": organisaties dienen de normen toe te passen, tenzij zij een gemotiveerde afwijking kunnen onderbouwen.
+We raden aan om eerst de niet-normatieve hoofdstukken te raadplegen voor verdieping en context, gevolgd door de normatieve hoofdstukken.
